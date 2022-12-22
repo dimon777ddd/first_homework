@@ -10,14 +10,14 @@ if (number1 == number2)
     Console.WriteLine("The first number is equal to the second number");
 }
 
-else if (number1 > number2)
+else if (number1 < number2)
 {
-    Console.WriteLine("First number is bigger then second number");
+    Console.WriteLine($"max = {number2}, min = {number1}");
 }
 
 else
 {
-    Console.WriteLine("Second number is bigger then first number");
+    Console.WriteLine($"max = {number1}, min = {number2}");
 }
 
 
